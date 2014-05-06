@@ -10,6 +10,9 @@ using namespace std;
 int main()  
 {      
     
+    // This problem is simple: scan through the road array and
+    // determine the minimum value
+
     int length, cases, i, j, min; 
     int* road = NULL;
     
@@ -25,12 +28,10 @@ int main()
 	cin >> road[i];	
     }  
     
-    while (cases--)  
-    {  
-	
+    while (cases--){  	
+
 	cin >> i >> j;  
-	
-	
+		
 	// Scan through the road segment looking for the minimum width. If
 	// we hit width = 1, we can stop scanning because its not possible
 	// to find a smaller value
