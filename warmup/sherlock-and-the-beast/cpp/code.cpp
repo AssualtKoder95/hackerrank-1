@@ -19,6 +19,9 @@ int main()
 	
 	cin >> digits;	
 	
+	// This problem follows a simple numeric progression. Just write
+	// out the series of numbers and the relationships are easy to spot
+
 	if(digits < 9){
 	    
 	    switch(digits){
