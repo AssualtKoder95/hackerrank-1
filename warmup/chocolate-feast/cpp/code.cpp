@@ -1,8 +1,5 @@
-
-#include <cstdio>  
-#include <cstring>  
+  
 #include <iostream>  
-#include <algorithm>  
 
 using namespace std;
 
@@ -29,7 +26,8 @@ int main()
 	
 	while (wrappers >= m){
 	    
-	    total += trade = wrappers / m;
+	    trade = wrappers / m;
+	    total += trade;
 	    wrappers = wrappers % m;
 	    wrappers += trade;
 	    
